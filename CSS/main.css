@@ -1,0 +1,120 @@
+body {
+	font-family: helvetica;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	line-height: 20px;
+	position: fixed;
+	top: 0;
+	font-size: 2em;
+	background-color: lightgrey;
+	border-bottom: 1px solid grey;
+}
+
+header p {
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul {
+	float: right;
+}
+
+ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	clear: both;
+	margin: 150px 10%;
+}
+
+input[type="text"] {
+	font-size: 1em;
+	width: 100%;
+	line-height: 1.5em;
+}
+
+#search_box {
+	float: left;
+	width: 60%;
+}
+
+#button {
+	float: left;
+	width: 37%;
+	margin-left: 3%;
+}
+
+#button img {
+	border: 1px solid lightgrey;
+}
+
+#prev, #page, #next {
+	float: left;
+	padding: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border: 1px solid lightgrey;
+	line-height: .5em;
+}
+
+.results_1 {
+	clear: both;
+}
+
+.results_1 p {
+	float: left;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+.results_1 a {
+	float: left;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+.results_2 {
+	clear: both;
+}
+
+.results_2 p {
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.results_2 a {
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.results_3 {
+	clear: both;
+}
+
+.results_3 p {
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.results_3 a {
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+
