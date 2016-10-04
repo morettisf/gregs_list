@@ -10,18 +10,19 @@ header {
 	line-height: 20px;
 	position: fixed;
 	top: 0;
-	font-size: 2em;
 	background-color: lightgrey;
 	border-bottom: 1px solid grey;
 }
 
-header p {
+h1 {
+	font-size: 2em;
 	float: left;
 	margin-left: 20px;
 }
 
 nav ul {
 	float: right;
+	line-height: 2em;
 }
 
 ul li {
